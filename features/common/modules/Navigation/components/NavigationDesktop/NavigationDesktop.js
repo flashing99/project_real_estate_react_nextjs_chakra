@@ -16,7 +16,7 @@ const NavigationDesktop = () => {
         {/* ................ */}
         <Flex alignItems="center" justifyContent="space-between">
           <Link href="/">
-            <Box display="flex" gap="2" alignItems={"center"}>
+            <Box display="flex" gap="2" alignItems="center">
               <HiHomeModern size="30px" />
               <Text fontSize="2xl" fontWeight="black">
                 KASA
