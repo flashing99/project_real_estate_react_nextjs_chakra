@@ -18,13 +18,17 @@ import styles from "./PropertySlider.module.css";  */
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Box ,Container} from "@chakra-ui/react";
 import PropertyCard from "@/features/common/modules/PropertyCard";
+import { useIsDesktop } from "@/features/common/Hooks/useIsDesktop";
 
 const PropertySlider = ({ featuredProperties }) => {
   // console.log("PropertySlider :", featuredProperties);
 
+  const {isDesktop} = useIsDesktop();
+
   return (
     <Swiper
-      slidesPerView={4}
+      //slidesPerView={3}
+      slidesPerView={isDesktop ?3 : 1}
       spaceBetween={10}
       navigation={true}
       loop={true}

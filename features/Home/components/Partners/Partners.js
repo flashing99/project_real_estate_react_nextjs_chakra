@@ -2,7 +2,7 @@ import { Box, Text, Flex, Avatar, Image, SimpleGrid } from "@chakra-ui/react";
 import { partners, partners2 } from "./partnersConsts";
 const Partners = () => {
   return (
-    <Box maxW="1280px" m="0 auto" py={{ base: "3rem", sm: "6rem" }} >
+    <Box maxW="1280px" m="0 auto"  _py={{ base: "2rem", sm: "4rem" }} >
     
         <Text
           fontSize={{ base: "xl", sm: "2xl", md: "3xl" }}

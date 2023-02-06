@@ -4,7 +4,7 @@ import { teamMembers } from "./teamConsts";
 
 const MeetTheTeam = () => {
   return (
-    <Box maxW="1280px" m="0 auto" py={{ base: "3rem", sm: "6rem" }}>
+    <Box maxW="1280px" m="0 auto" _bg="red.50" py={{ base: "2rem", sm: "4rem" }}>
       <Text
         fontSize={{ base: "xl", sm: "2xl", md: "3xl" }}
         textAlign="center"

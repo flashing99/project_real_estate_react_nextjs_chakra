@@ -5,7 +5,7 @@ const FeaturedProperties = ({ featuredProperties }) => {
   // console.log("FeaturedProperties :" , featuredProperties)
   return (
     <Box bg="blue.50">
-      <Box maxW="1280px" m="0 auto" py={{ base: "3rem", sm: "6rem" }}>
+      <Box maxW="1280px" m="0 auto" py={{ base: "3rem", sm: "4rem" }}>
         <Text
           fontSize={{ base: "xl", sm:"2xl", md: "3xl" }}
           textAlign="center"
