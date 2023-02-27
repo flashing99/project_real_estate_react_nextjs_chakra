@@ -124,7 +124,7 @@ export default singleProperty;
 
 // .......................
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
   const property = require("@/features/data/property.json");
   return {
     props: {
